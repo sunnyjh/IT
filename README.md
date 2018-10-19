@@ -18,4 +18,8 @@
     https://www.cnblogs.com/hitwhhw09/p/4718404.html
     https://www.cnblogs.com/hitwhhw09/p/4718328.html
 
-## 2.线程与进程
+## 3.python的并发与并行
+    
+
+## 4.python的共享内存（shared memory)
+https://docs.python.org/3/library/array.html
