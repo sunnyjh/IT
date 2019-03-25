@@ -4,8 +4,15 @@
 
 错误1：
 ![](python2_chinese_encode_error1.png)
+
+
 错误2：
 ![](python2_chinese_encode_error2.png)
 
+## 2.
+
+## 2.1 
+str
+unicode
 http://python.jobbole.com/80831/
 http://www.wklken.me/posts/2013/08/31/python-extra-coding-intro.html
