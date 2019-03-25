@@ -1,6 +1,8 @@
-## 1.问题：
-  用python处理中文时，读取文件或消息，http参数等等，一运行，发现乱码(字符串处理，读写文件，print)
-  然后，大多数人的做法是，调用encode/decode进行调试，并没有明确思考为何出现乱码，所以调试时最常出现的错误：
+## python2 decode和encode原理
+
+   Python2默认代码编码格式为ASCII码，正常情况下，Python2处理思路为默认先decode ASCII字符为unicode,然后再进行各种操作，最后encode为ASCII字符输出，这些都是隐式的。但是当代码中出现非ASCII字符时，由于无法对非ASCII进行decode，会报Non-ASCII错误。一般会出现如下三种常见的编码问题：
+
+## 问题
 
 错误1：
 ![](python2_chinese_encode_error1.png)
