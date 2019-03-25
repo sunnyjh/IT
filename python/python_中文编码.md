@@ -97,10 +97,24 @@ Python中出现这么多编码问题的根本原因是Python 2.x的默认编码�
     1、默认编码格式改为unicode
     2、所有的Python内置模块都支持unicode
     3、不再支持u’中文’的语法格式
-所以，对于Python 3.x来说，编码问题已经不再是个大的问题，基本上很少遇到上述的几个异常。关于Python 2.x str&unicode和Python 3.x str&bytes的更多说明和对比，大家可以看一下：Python中字符编码的总结和对比
+所以，对于Python 3.x来说，编码问题已经不再是个大的问题，基本上很少遇到上述的几个异常。关于Python 2.x str&unicode和Python 3.x str&bytes的更多说明和对比，大家可以看一下：Python中字符编码的总结和对比。
+
+## 总结
+当python2中使用中文时基本代码如下：
+     
+    # -*- coding:utf-8 -*-  #所有代码都为utf编码
+    import sys
+    
+    a=u'中文' #解码为unicode
+    b=u'中文学院'  #解码为unicode
+    if a in b: 
+        print a.encode('utf-8') #编码为utf-8并输出
+
 
 
 ## 参考链接
 http://python.jobbole.com/80831/
+
 http://www.wklken.me/posts/2013/08/31/python-extra-coding-intro.html
+
 [Python中字符编码的总结和对比](https://www.crifan.com/summary_python_string_encoding_decoding_difference_and_comparation_python_2_x_str_unicode_vs_python_3_x_bytes_str/)
