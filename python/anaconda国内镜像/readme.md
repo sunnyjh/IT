@@ -26,8 +26,8 @@
 * 4.运行 conda create -n myenv numpy 测试一下
 * 5.添加conda额外库:（额外库都是第三方提供的，非anaconda官方的，建议没有特殊需要直接使用稳定的官方库。）
 
-    # pytorch
-    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+       #pytorch
+       conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
 
   # 安装时PyTorch，官网给的安装命令需要去掉最后的-c pytorch，才能使用清华源
   #conda-forge
