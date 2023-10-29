@@ -11,6 +11,7 @@
 
 ### 临时使用
   在安装时指定 repo。
+  
     install.packages("lattice", repos="https://mirrors.tuna.tsinghua.edu.cn/CRAN/")
 
 
