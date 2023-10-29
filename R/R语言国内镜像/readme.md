@@ -14,5 +14,7 @@
   
     install.packages("lattice", repos="https://mirrors.tuna.tsinghua.edu.cn/CRAN/")
 
+   [参考链接](https://mirror.tuna.tsinghua.edu.cn/help/CRAN/)
+
 
     
