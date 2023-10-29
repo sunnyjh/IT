@@ -22,5 +22,7 @@
          simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
          deepmodeling: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 
+* 3.运行 conda clean -i 清除索引缓存，保证用的是镜像站提供的索引。
+* 4.运行 conda create -n myenv numpy 测试一下
 
 ### [参考链接](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/) 
