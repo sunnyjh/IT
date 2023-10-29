@@ -24,11 +24,10 @@
 
 * 3.运行 conda clean -i 清除索引缓存，保证用的是镜像站提供的索引。
 * 4.运行 conda create -n myenv numpy 测试一下
-
 * 5.添加conda额外库:（额外库都是第三方提供的，非anaconda官方的，建议没有特殊需要直接使用稳定的官方库。）
 
   #pytorch
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
   #安装时PyTorch，官网给的安装命令需要去掉最后的-c pytorch，才能使用清华源
   #conda-forge
   conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
@@ -72,4 +71,5 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
   #尽量避免使用conda update --all命令，可能会出现部分包降级的问题
 
 
-### [参考链接](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/) 
+[参考链接](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/) 
+[anaconda更换清华源]((https://blog.csdn.net/jasneik/article/details/114227716) 
