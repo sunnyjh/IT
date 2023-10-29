@@ -71,5 +71,5 @@
      #尽量避免使用conda update --all命令，可能会出现部分包降级的问题
 
 
-+[anaconda官网](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/) 
-+[anaconda更换清华源](https://blog.csdn.net/jasneik/article/details/114227716) 
++ [anaconda官网](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/) 
++ [anaconda更换清华源](https://blog.csdn.net/jasneik/article/details/114227716) 
